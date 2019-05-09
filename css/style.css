@@ -5,13 +5,10 @@
 }
 /* Body  */
 body{
-  /* font-size: 10px;
-  font-family: sans-serif; */
   background-color: #f3f2f5;
   margin: 0px 15px;
 }
-
-/* Navigation Bar */
+/* Top Navigation Bar */
 .topnav ul {
   list-style-type: none;
   margin: 0;
@@ -59,9 +56,6 @@ body{
     background-size: 840px;
     background-size: cover;
 }
-.logo img{
-  width: 50rem;
-}
 .book img{
   width: 94rem;
 }
@@ -72,20 +66,17 @@ body{
   width: 200px;
   background-color: #f1f1f1;
 }
-
 .nav li a {
   display: inline-grid;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
 }
-
 /* Change the link color on hover */
 .nav li a:hover {
   background-color: #8e9096;
   color: white;
 }
-
 .content{
   text-align: justify;
   margin-top: -350px;
