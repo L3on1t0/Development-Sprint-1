@@ -17,17 +17,17 @@ body{
 }
 
 /* Navigation Bar */
-ul {
+.topnav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #211545;
 }
-li {
+.topnav li {
   float: left;
 }
-li a {
+.topnav li a {
   display: block;
   color: white;
   text-align: center;
@@ -41,6 +41,8 @@ a{
   text-decoration: none;
   color: #211545;
 }
+
+
 
 /* Heading */
 .heading{
