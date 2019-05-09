@@ -14,7 +14,7 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #8a0000;
+  background-color: #13063d;
 }
 .topnav li {
   float: left;
@@ -178,7 +178,7 @@ ul.social-media li img{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #211545;
+  background-color: #13063d;
 }
 .footer li {
   float: left;
