@@ -11,11 +11,6 @@ body{
   margin: 0px 15px;
 }
 
-/* Container for the banner image */
-/* .container img{
-  width: 100%;
-} */
-
 /* Navigation Bar */
 .topnav ul {
   list-style-type: none;
@@ -41,8 +36,6 @@ body{
   text-decoration: none;
   color: #211545;
 }
-
-
 
 /* Heading */
 .header  {
