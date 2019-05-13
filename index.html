@@ -38,10 +38,12 @@
 
     <div class="header">
       <h1>Study Skills</h1>
+      <form action="/action_page.php">
+        <input type="text" label="Search..." name="search">
+        <input type="submit" class="button" style="font-size: 14px; width: auto" value="Search" name="Submit" />
+      </form>
     </div>
-    <div class="book">
-      <img src="image/book.jpg" alt="book"/>
-    </div>
+
     <div class="nav">
       <ul>
         <li><a href="#Academic assignments">Academic assignments</a></li>
@@ -61,6 +63,29 @@
       <div class="text">Learning at university may be different to learning at school or college. Lecturers will not usually supply you with all the reading you need to complete your assignments. They expect you to research and read independently. You may read books, online journal articles or research on the web. This is called wide reading. When you write academic assignments, you must demonstrate your wide reading by citing ideas or concepts from this wide reading. Citations are academics’ way of showing that they are using someone else’s ideas, concepts, theories or actual words. Plagiarism is the presentation of the ideas and words of another writer, artist, film maker etcetera as you own without any form of acknowledgement. Plagiarism can easily be avoided if you document the relevant sources which you have used.If you would still like further information, please contact staff from the Academic Language and Learning Success Program (ALLSP), also known as A L L S P or allsp, who run free workshops for internal and external students on Harvard and APA styles.</div>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/dtxOKWRIJpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="image/laptop.jpg" style="width:100%; height:300px">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/book.jpg" style="width:100%; height:300px">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/library.jpg" style="width:100%; height:300px">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
     <div class="card-wrapper">
       <!--  Card 1 -->
       <div class="card">
@@ -102,5 +127,26 @@
       </div>
     </div>
 
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
   </body>
 </html>
