@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="icon" href="image/cduicon.jpg"/>
-    <title>Referencing - Leonito Barros (s299600)-Team ALF</title>
+    <title>Referencing - Team ALF</title>
   </head>
   <body>
     <div class="topnav">
@@ -19,12 +19,21 @@
         <li><a href="#campuses&centres">Campuses & Centres</a></li>
         <li><a href="#contactus">Contact Us</a></li>
         <li><a href="#sitemap">Site Map</a></li>
-        <li><a href="#learnline">Learnline</a></li>
       </ul>
     </div>
-    <div class="container">
-      <img src="image/banner.jpeg" alt="banner"/>
+
+    <div id="slideshow">
+      <div>
+        <img src="image/library.jpg">
+      </div>
+      <div>
+        <img src="image/book.jpg">
+      </div>
+      <div>
+        <img src="image/laptop.jpg">
+      </div>
     </div>
+
     <div class="header">
       <h1 class="heading">Referencing</h1>
     </div>
@@ -39,5 +48,29 @@
         </ul>
       </div>
     </div>
+
+    <script>
+    $(function() {
+    setTimeout(function(){
+      //display the first image
+      $('#slideshow > div:first')
+        .setDivSize(30, 40)
+        .center(false)
+        .fadeIn(1000);
+
+      //loop through the remaining images
+      setInterval(function() {
+        $('#slideshow > div:first')
+          .fadeOut(1000)
+          .next()
+          .setDivSize(30,40)
+          .center(false)
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slideshow');
+      },  5000);
+    }, 500 );
+  });
+    </script>
   </body>
 </html>

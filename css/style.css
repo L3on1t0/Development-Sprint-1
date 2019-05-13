@@ -42,8 +42,6 @@ a{
   color: #211545;
 }
 
-
-
 /* Heading */
 .heading{
   text-transform: uppercase;
@@ -56,7 +54,6 @@ a{
   color: #295879;
   position: relative;
 }
-
 
 /* Footer and the social media contact */
 div.footer{
@@ -94,7 +91,7 @@ ul.social-media li img{
   background-color: #295879;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 400px){
   div.topnav{
     display: inline-block;
   vertical-align: middle;
@@ -122,4 +119,13 @@ ul.social-media li img{
       margin: 2rem;
       transition: transform .5s;
     }
+  }
+
+  #slideshow {
+      width: 1000px;
+      height: 510px;
+  }
+
+  #slideshow > div {
+      position: absolute;
   }
