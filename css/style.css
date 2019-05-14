@@ -334,7 +334,7 @@ input[type=text] {
   border-radius: 8px;
   font-size: 15px;
   background-color: white;
-  background-image: '/image/d2.png';
+  background-image: url('/image/d2.png');
   background-repeat: no-repeat;
   padding: 10px 10px 10px 20px;
   -webkit-transition: width 0.4s ease-in-out;
