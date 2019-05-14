@@ -297,16 +297,6 @@ img {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* .card-wrapper{
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .card{
-    margin: 0;
-    width: 90%;
-  }
-
-} */
 @media screen and (min-width: 1280px){
   div.card{
     width: calc(28% - 1rem);
