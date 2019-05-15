@@ -230,7 +230,7 @@ img {
     position: absolute;
       right:0px;
       height: 40vh;
-      top:6vh;
+      top:8vh;
       background-color: #211545;
       display: block;
       flex-direction: column;
@@ -291,6 +291,14 @@ img {
     margin-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .card-wrapper{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card{
+    margin: 0;
+    width: 90%;
   }
 
 }
