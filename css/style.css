@@ -211,21 +211,6 @@ img {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-/* Footer and the social media contact */
-div.footer{
-  resize: both;
-  overflow: auto;
-  background-color: #211545;
-}
-div.footer div{
-  float:left;
-  margin-left: calc(50% - 124px);
-}
-
-ul.social-media li img{
-  width: 2rem;
-  height: auto;
-}
 
 @-webkit-keyframes fade {
   from {opacity: .4}
