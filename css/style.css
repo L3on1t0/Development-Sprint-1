@@ -341,3 +341,10 @@ input[type=text] {
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
+
+.comments{
+  font-family:sans-serif;
+  font-size:20px;
+  width: 200px;
+  height: 500px;
+}
