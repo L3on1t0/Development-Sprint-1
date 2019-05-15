@@ -296,7 +296,7 @@ img {
     padding-left: 0px;
     padding-right: 0px;
   }
-@media screen and (min-width: 1280px){
+/* @media screen and (min-width: 1280px){
   div.card{
     width: calc(35% - 1rem);
   }
@@ -313,7 +313,7 @@ img {
       margin: 2rem;
       transition: transform 0.5s;
     }
-  }
+  } */
 
 
 @media screen and (max-width: 768px) {
