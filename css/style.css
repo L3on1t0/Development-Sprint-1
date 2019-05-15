@@ -122,69 +122,64 @@ h2{
 }
 div.card{
   float:left;
-  margin: 2rem;
+  margin: 1rem;
 }
 .card{
   display: inline-block;
-  background-color: #d6eaff;
+  width: 25rem;
+  padding-left: 5px;
+  background-color: #ebeef8;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius:5px;
-  box-shadow: .5rem .5rem 1rem rgba(0,0,0,0.6);
+  margin: 2rem 0;
+  border-radius:10px;
+  box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
 }
 .card .card-img{
   width: 100%;
   height: 23rem;
   object-fit: cover;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
-  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-clip-path: polygon(51% 0, 100% 0, 100% 100%, 49% 89%, 0 100%, 0 0);
+  clip-path: polygon(51% 0, 100% 0, 100% 100%, 49% 89%, 0 100%, 0 0);
 }
 .card:hover{
-  box-shadow: 0px 40px 30px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0.2);
   transform: translateY(-10px);
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .card h3{
-  font-family: cursive;
+  margin-top: 50%;
   font-size: 1.5rem;
-  color: #0f1f66;
+  color: #295879;
   margin: 1.5rem 0;
   text-align: center;
 }
 .desc{
-  padding: 5px;
-  margin-bottom: 20px;
-  font-family: sans-serif;
   font-size: 1rem;
+  margin-top: 15px;
+  font-style: italic;
+  letter-spacing: 0.5px;
   text-align: center;
+  color: #333;
 }
-
 /* Button on the cards */
-.button {
-  display: inline-block;
-  padding: 5px 15px;
-  font-size: 1.5em;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #0f1f66;
-  border: none;
+button{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
   border-radius: 5px;
-  box-shadow: 0 9px #999;
+  cursor: pointer;
 }
-
-.button:hover {background-color: #3a76c4}
-
-.button:active {
-  background-color: #8c0000;
-  box-shadow: 0 5px #666;
-  transform: translateY(3px);
+button:hover{
+  background-color: #211545;
+  color: white;
+  transition: .5s;
 }
 /* ifrane */
 .iframe{
@@ -245,6 +240,7 @@ img {
       transition: transform 0.5s ease in;
   }
 
+
   .topnav li{
     opacity: 1;
     padding-bottom: 10px;
@@ -296,24 +292,16 @@ img {
     padding-left: 0px;
     padding-right: 0px;
   }
-@media screen and (min-width: 1280px){
-  div.card{
-    width: calc(35% - 1rem);
+  .card-wrapper{
+    padding-left: 0px;
+    padding-right: 0px;
   }
-}
+  .card{
+    margin: 0;
+    width: 90%;
+  }
 
-@media screen and (min-width: 700px){
-    .card-wrapper{
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-    .card{
-      margin: 2rem;
-      transition: transform 0.5s;
-    }
-  }
+}
 
 
 @media screen and (max-width: 768px) {
