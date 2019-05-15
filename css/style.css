@@ -178,7 +178,7 @@ button{
 }
 button:hover{
   background-color: #211545;
-  color: white;
+  color: black;
   transition: .5s;
 }
 /* ifrane */
