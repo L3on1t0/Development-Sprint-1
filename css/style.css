@@ -362,3 +362,6 @@ input[type=text] {
   background-repeat: no-repeat;
   padding: 10px 10px 10px 20px;
 }
+label{
+  color:white;
+}
