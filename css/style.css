@@ -360,13 +360,4 @@ input[type=text] {
   background-image: url('/image/d2.png');
   background-repeat: no-repeat;
   padding: 10px 10px 10px 20px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
-
-.comments{
-  font-family:sans-serif;
-  font-size:20px;
-  width: 200px;
-  height: 500px;
 }
