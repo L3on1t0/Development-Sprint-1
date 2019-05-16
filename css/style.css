@@ -69,7 +69,7 @@ body{
 .text{
   padding: 10px;
   font-size: 15px;
-  font-family: times new roman;
+  font-family: times;
 }
 
 /* sidenav  */
@@ -143,7 +143,7 @@ div.card{
   object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  -webkit-clip-path: polygon(51% 0, 100% 0, 100% 100%, 49% 89%, 0 100%, 0 0);
+  clip-path: polygon(51% 0, 100% 0, 100% 100%, 49% 89%, 0 100%, 0 0);
   clip-path: polygon(51% 0, 100% 0, 100% 100%, 49% 89%, 0 100%, 0 0);
 }
 .card:hover{
@@ -223,13 +223,13 @@ img {
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
+@keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
@@ -337,6 +337,7 @@ ul.social-media li img{
     margin: 0;
     width: 90%;
   }
+}
 
 @media screen and (max-width: 768px) {
   body{
