@@ -251,6 +251,26 @@ img {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+div.footer{
+  resize: both;
+  overflow: auto;
+  background-color: #211545;
+}
+div.footer div{
+  float:left;
+  margin-left: calc(50% - 124px);
+}
+
+ul.social-media li img{
+  width: 2rem;
+  height: auto;
+}
+.social-media li{
+  list-style-type: none;
+  float: left;
+  padding: 10px;
+}
 /* media */
 @media screen and (max-width:768px){
   body{
