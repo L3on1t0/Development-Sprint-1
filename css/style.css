@@ -184,6 +184,8 @@ button:hover{
 /* ifrane */
 .iframe{
   align-items: center;
+  width:560px;
+  height:315px;
 }
 
 /* slideshow */
