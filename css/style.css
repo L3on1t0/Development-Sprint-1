@@ -352,13 +352,13 @@ ul.social-media li img{
   }
 }
 
+/* Search box */
 input[type=text] {
   width: 150px;
   box-sizing: border-box;
   border-radius: 8px;
   font-size: 15px;
   background-color: white;
-  background-image: url('/image/d2.png');
   background-repeat: no-repeat;
   padding: 10px 10px 10px 20px;
 }
