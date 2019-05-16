@@ -240,7 +240,7 @@ img {
 div.footer{
   resize: both;
   overflow: auto;
-  background-color: white;
+  background-color: #211545;
 }
 div.footer div{
   float:left;
