@@ -353,19 +353,22 @@ ul.social-media li img{
   }
   .iframe{
     width: 100%;
+    align-content: center;
   }
 }
 
 /* Search box */
 input[type=text] {
   width: 150px;
+  height: 10px;
   box-sizing: border-box;
   border-radius: 8px;
-  font-size: 15px;
   background-color: white;
   background-repeat: no-repeat;
   padding: 10px 10px 10px 20px;
 }
 label{
   color:white;
+  font-family: sans-serif;
+  font-size: 12px;
 }
