@@ -223,7 +223,7 @@ h5{
   box-shadow: 0 5px #666;
   transform: translateY(3px);
 }
-/* ifrane */
+/* ifrare */
 .iframe{
   align-items: center;
 }
@@ -604,6 +604,8 @@ div.footer div{
   .panel-image{
     width: 50%;
     display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .card-wrap{
     margin-top: 0px;
