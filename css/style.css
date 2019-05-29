@@ -145,6 +145,9 @@ h2{
 .vivideo iframe{
   width:560px;
   height: 315px;
+  margin-left: 250px;
+  margin-top: 10px;
+  margin-bottom: 50px;
   display:flex;
 }
 /*cards  */
@@ -244,7 +247,10 @@ h5{
 img {
   vertical-align: middle;
 }
-
+.mySlides img{
+width:100%;
+height:300px;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -252,6 +258,9 @@ img {
   position: relative;
 }
 
+.mySlides fade img{
+
+}
 
 .active {
   background-color: #717171;
@@ -536,6 +545,9 @@ img {
   .vivideo iframe{
     width:375px;
     height: 315px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display:flex;
   }
   .refstyle h2{
@@ -581,6 +593,9 @@ img {
     padding:0px;
     margin-top: 500px;
     margin-left: 0px;
+  }
+  .accordion{
+    margin: 0px;
   }
   .cardo h3{
     padding: 0px;
