@@ -4,12 +4,6 @@ const navSlide = () => {
 
   menu.addEventListener('click', () =>{
     topnav.classList.toggle('nav-active');
-
-    // if(topnav.style.display!='none'){
-    //   topnav.style.display='none';
-    // }else{
-    //   topnav.style.display='inherit';
-    // }
   });
 }
 navSlide();

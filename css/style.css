@@ -10,7 +10,6 @@ body{
   background-color: #fcfcfc;
   margin: 0px 0px;
 }
-
 /* Navigation Bar */
 .topnav {
   display:flex;
@@ -26,7 +25,6 @@ body{
   margin:0;
   padding: 0px;
 }
-
 .banner{
   width:100%;
   margin-bottom: 0px;
@@ -34,13 +32,11 @@ body{
 .banner2{
   width:30%;
 }
-
 .topnav ul{
   display: flex;
   justify-content: space-around;
   width: 70%;
 }
-
 .topnav ul a{
   color: white;
   text-decoration: none;
@@ -58,7 +54,6 @@ body{
   height: 2px;
   background-color: white;
   margin:5px;
-
 }
 /* .srs{
   height: 25px;
@@ -92,7 +87,6 @@ body{
   font-size: 15px;
   font-family: times;
 }
-
 /* sidenav  */
 .navi>div{
   display: block;
@@ -114,7 +108,6 @@ body{
   height: 58%;
   overflow: auto;
 }
-
 .navi ul li a {
   display: block;
   color: #211545;
@@ -123,12 +116,10 @@ body{
   font-size: 15px;
   padding-left: 10px;
 }
-
 .navi ul li a.active {
   background-color: #4CAF50;
   color: white;
 }
-
 .navi ul li a:hover:not(.active) {
   background-color: #3a76c4;
   color: white;
@@ -141,8 +132,6 @@ h2{
   margin-top: 15px;
 }
 /* sidenav close */
-
-
 .vivideo iframe{
   width:560px;
   height: 315px;
@@ -164,7 +153,6 @@ h5{
   padding-left: 300px;
   padding-right: 75px;
 }
-
 .card{
   float:left;
   margin: 3rem;
@@ -228,9 +216,7 @@ h5{
   color: white;
   text-decoration: none;
 }
-
 .button:hover {background-color: #3a76c4}
-
 .button:active {
   background-color: #8c0000;
   box-shadow: 0 5px #666;
@@ -240,7 +226,6 @@ h5{
 .iframe{
   align-items: center;
 }
-
 /* slideshow */
 .mySlides{
   display: flex;
@@ -254,21 +239,14 @@ width:150%;
 height:  auto;
 /* height:300px; */
 }
-
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
   position: relative;
 }
-
-.mySlides fade img{
-
-}
-
 .active {
   background-color: #717171;
 }
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -276,7 +254,6 @@ height:  auto;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 div.footer{
   display: block;
   resize: both;
@@ -291,18 +268,15 @@ div.footer div{
 div.footer ul li{
   display: inline-block;
 }
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
 /* content 1 */
-
 .card-wrap{
   margin-top: -423px;
   padding-left: 290px;
@@ -335,7 +309,6 @@ div.footer ul li{
   font-size: 1rem;
   text-align: left;
 }
-
 .cardo iframe{
   width: 450px;
   height: 300px;
@@ -343,7 +316,6 @@ div.footer ul li{
   margin-left: 560px;
   margin-bottom: 15px;
 }
-
 .accord h2{
   margin-top: 50px;
   margin-bottom: 40px;
@@ -353,14 +325,11 @@ div.footer ul li{
   font-weight: lighter;
   margin-left: 10px;
 }
-
 .social-media img{
   width: 40px;
   float: left;
   display: inline-block;
-
 }
-
 .accordion {
   font-family: times;
   font-weight: bold;
@@ -375,15 +344,12 @@ div.footer ul li{
   font-size: 25px;
   transition: 0.4s;
 }
-
 .active, .accordion:hover {
   background-color: #ccc;
 }
-
 .accord h2{
   color: #211545;
 }
-
 .accordion:after {
   content: '\002B';
   color: #777;
@@ -391,11 +357,9 @@ div.footer ul li{
   float: right;
   margin-left: 5px;
 }
-
 .active:after {
   content: "\2212";
 }
-
 .panel1{
   padding: 0 18px;
   font-size: 18px;
@@ -412,19 +376,16 @@ div.footer ul li{
   margin-bottom: 15px;
   width:50%;
 }
-
 .panel-images img{
   float: right;
   margin-top: 90px;
   width:50%;
 }
-
 .panel-img img{
   float: right;
   margin-top: 0px;
   width:50%;
 }
-
 .describ h3{
   font-size: 1.5rem;
   margin-top: 25px;
@@ -436,15 +397,12 @@ div.footer ul li{
   font-size: 1rem;
   text-align: left;
 }
-
 .describ p{
   margin-left: 3.5rem;
   margin-right: 700px;
   padding-right: 20px;
 }
-
 /* content 2  */
-
 .text-c2 {
   text-align: left;
   font-family: times;
@@ -469,7 +427,6 @@ div.footer ul li{
 .active, .accordion:hover {
   background-color: #ccc;
 }
-
 .accordion:after {
   content: '\002B';
   color: #777;
@@ -477,11 +434,9 @@ div.footer ul li{
   float: right;
   margin-left: 5px;
 }
-
 .active:after {
   content: "\2212";
 }
-
 .panel{
   padding: 0 18px;
   font-size: 17px;
@@ -491,7 +446,6 @@ div.footer ul li{
   transition: max-height 0.2s ease-out;
   font-family: times;
   padding-left: 0px;
-
 }
 .panel p{
   padding-top: 100px;
@@ -502,31 +456,10 @@ div.footer ul li{
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 .refvid{
   display:block;
   padding-top: 0px;
 }
-
-/*content 3*/
-/*
-.accordion {
-  font-family: times;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 3px;
-  background-color: #d9d9d9;
-  color: #161042;
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  outline: none;
-  font-size: 25px;
-  transition: 0.4s;
-}*/
-/*content 4*/
-
-
 .text1 {
   text-align: left;
   font-family: times;
@@ -534,8 +467,6 @@ div.footer ul li{
   padding: 30px;
   font-size: 18px;
 }
-
-
 /* media */
 .video{
   width:600px;
@@ -543,7 +474,6 @@ div.footer ul li{
   display: block;
   margin: auto;
 }
-
 @media screen and (max-width:768px){
   body{
     overflow-x: hidden;
@@ -567,7 +497,6 @@ div.footer ul li{
     height:400px;
     margin: 0px;
   }
-
   .topnav li{
     opacity: 1;
     padding-bottom: 10px;
@@ -579,7 +508,6 @@ div.footer ul li{
   .srs{
     padding-right: 250px;
   }
-
   .img{
     display: block;
     width: 100%;
@@ -604,7 +532,6 @@ div.footer ul li{
     padding: 18px;
     width: 100%;
   }
-
   .heading h1{
     padding: 0px;
     font-size: 10px;
@@ -677,14 +604,12 @@ div.footer ul li{
     width:100%;
     display: inline-block;
   }
-
   .panel-images img{
     float: right;
     margin-top: 0px;
     width:100%;
     display: inline-block;
   }
-
   .panel-img img{
     float: right;
     margin-top: 0px;
@@ -694,14 +619,12 @@ div.footer ul li{
   .panel p{
     padding-top: 300px;
   }
-
   .describ h3{
     font-size: 1.5rem;
     margin-top: 25px;
     margin-right: 0px;
     margin-left: 2rem;
   }
-
   .describ p{
     margin-left: 3.5rem;
     margin-right: 0px;
@@ -717,33 +640,25 @@ div.footer ul li{
     margin-right: 0px;
     padding-right: 15px;
   }
-
 }
-
 .nav-active{
   transform: translateX(0%);
 }
-
 @media screen and (max-width: 900px) {
   .topnav{
       overflow-x: hidden;
   }
-
-  /* card ida ne mak sei iha problema */
   .card-wrapper{
     padding:0px;
   }
   .navi>div>h2{
     width: 100%;
   }
-
   .navi ul{
     width: 100%;
     height: auto;
     position: relative;
-
   }
-
   .navi ul li a {
     float: left;
     padding: 15px;
@@ -757,15 +672,11 @@ div.footer ul li{
     padding-left: 0px;
     padding-right: 0px;
   }
-
-
-
   @media screen and (min-width: 1280px){
     div.card{
       width:100%;
     }
   }
-
   @media screen and (min-width: 700px){
 
       .card-wrapper{
@@ -777,14 +688,11 @@ div.footer ul li{
       .card{
         transition: transform 0.5s;
       }
-
     }
-
 @media screen and (max-width: 768px) {
   body{
       overflow-x: hidden;
   }
-
   .navi ul li a {
     text-align: center;
     float: none;
@@ -793,18 +701,14 @@ div.footer ul li{
     width: 100%;
     align-content: center;
   }
-
-
         .search{
           margin-left: -50%;
         }
 }
-
 .topnav ul{
   display: none;
 }
 }
-
 input[type=text] {
   width: 150px;
   height: 10px;
@@ -816,30 +720,21 @@ input[type=text] {
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
-
-
 label{
   color:white;
   font-family: sans-serif;
   font-size: 12px;
 }
-
 .tab{
   margin-left: 40px;
 }
-
 img.ban{
   width:100%;
   max-width: 600px;
   height:auto;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto;
- float: right; */
  border-radius: 8px;
  margin-bottom: 10px;
 }
-
 .photo-container{
   text-align: center;
 }
