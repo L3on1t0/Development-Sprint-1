@@ -279,7 +279,7 @@ height:  auto;
 
 div.footer{
   display: block;
-  resize: both;
+  /* resize: both; */
   /* overflow: auto; */
   background-color: #211545;
 }
@@ -526,7 +526,7 @@ div.footer ul li{
 }
 /*content 4*/
 .ban{
-  width:480px;
+  width:100px;
   height:300px;
   display: block;
   margin-left: auto;
