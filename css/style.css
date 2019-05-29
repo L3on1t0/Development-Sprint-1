@@ -145,6 +145,9 @@ h2{
 .vivideo iframe{
   width:560px;
   height: 315px;
+  margin-left: 250px;
+  margin-top: 10px;
+  margin-bottom: 50px;
   display:flex;
 }
 /*cards  */
@@ -543,7 +546,7 @@ img {
   }
   .vivideo iframe{
     width:375px;
-    height: 315px;
+    height: 315px;w
     display:flex;
   }
   .refstyle h2{
