@@ -738,6 +738,10 @@ div.footer ul li{
   .card-wrapper{
     padding:0px;
   }
+  .navi>div>h2{
+    width: 100%;
+  }
+  
   .navi ul{
     width: 100%;
     height: auto;
@@ -768,6 +772,7 @@ div.footer ul li{
   }
 
   @media screen and (min-width: 700px){
+
       .card-wrapper{
         flex-direction: row;
         flex-wrap: wrap;
@@ -784,6 +789,7 @@ div.footer ul li{
   body{
       overflow-x: hidden;
   }
+
   .navi ul li a {
     text-align: center;
     float: none;
