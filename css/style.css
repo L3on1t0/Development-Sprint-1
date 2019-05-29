@@ -279,7 +279,7 @@ height:  auto;
 
 div.footer{
   display: block;
-  /* resize: both; */
+  resize: both;
   /* overflow: auto; */
   background-color: #211545;
 }
