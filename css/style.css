@@ -132,11 +132,15 @@ h2{
 }
 
 /* sidenav close */
-
+.vivideo iframe{
+  width:560px;
+  height: 315px;
+  display:flex;
+}
 /*cards  */
 h5{
   font-family: times;
-  transform: translate(8%);
+  transform: translate(0%);
   color: #161042;
   text-align: center;
   font-size: 40px;
@@ -262,8 +266,6 @@ img {
 /* content 1 */
 
 .card-wrap{
-  resize: none;
-  overflow: none;
   margin-top: -423px;
   padding-left: 290px;
 }
@@ -528,6 +530,11 @@ img {
     margin: 1rem;
     margin-bottom: 3rem;
   }
+  .vivideo iframe{
+    width:375px;
+    height: 315px;
+    display:flex;
+  }
   .refstyle h2{
     display: none;
     position: absolute;
@@ -633,6 +640,11 @@ img {
     transform: translate(0%);
     margin-bottom: 2rem;
   }
+  .panel p{
+    margin-left: 1.5rem;
+    margin-right: 0px;
+    padding-right: 15px;
+  }
 
 
 
@@ -731,14 +743,14 @@ input[type=text] {
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
-<<<<<<< HEAD
+
 
 .comments{
   font-family:times;
   font-size:20px;
   width: 200px;
   height: 500px;
-=======
+
 label{
   color:white;
   font-family: sans-serif;
