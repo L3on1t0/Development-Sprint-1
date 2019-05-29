@@ -55,9 +55,6 @@ body{
   background-color: white;
   margin:5px;
 }
-/* .srs{
-  height: 25px;
-} */
 /* content */
 .content{
   text-align: justify;
@@ -237,7 +234,6 @@ img {
 .mySlides img{
 width:150%;
 height:  auto;
-/* height:300px; */
 }
 /* Slideshow container */
 .slideshow-container {
