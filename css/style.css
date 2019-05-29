@@ -741,7 +741,7 @@ img {
 .topnav .nav-links{
   display: none;
 }
-
+}
 
 input[type=text] {
   width: 150px;
@@ -757,15 +757,8 @@ input[type=text] {
 }
 
 
-.comments{
-  font-family:times;
-  font-size:20px;
-  width: 200px;
-  height: 500px;
-
 label{
   color:white;
   font-family: sans-serif;
   font-size: 12px;
->>>>>>> cc483dc6a003bb53a5b336b60cd8102936c6c6ae
 }
