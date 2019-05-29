@@ -166,7 +166,6 @@ h5{
   box-shadow: .5rem .5rem 1rem rgba(0,0,0,0.2);
 }
 .card .card-img{
-  /* margin-top: -185px   ; */
   width: 100%;
   height: 23rem;
   object-fit: cover;
@@ -220,9 +219,9 @@ h5{
   transform: translateY(3px);
 }
 /* ifrare */
-.iframe{
+/* .iframe{
   align-items: center;
-}
+} */
 /* slideshow */
 .mySlides{
   display: flex;
