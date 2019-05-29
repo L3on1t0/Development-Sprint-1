@@ -75,7 +75,7 @@ body{
   color: #161042;
   padding: 25px;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 }
 .heading{
   font-family: times;
@@ -129,15 +129,14 @@ h2{
   padding-left: 10px;
   margin-top: 15px;
 }
-
 /* sidenav close */
+
+
 .vivideo iframe{
   width:560px;
   height: 315px;
-  margin-left: 250px;
-  margin-top: 10px;
-  margin-bottom: 50px;
   display:flex;
+  margin-left: 200px;
 }
 /*cards  */
 h5{
@@ -263,6 +262,16 @@ height:300px;
   animation-duration: 1.5s;
 }
 
+div.footer{
+  resize: both;
+  overflow: auto;
+  background-color: #211545;
+}
+div.footer div{
+  float:left;
+  margin-left: calc(50% - 124px);
+}
+
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -317,6 +326,7 @@ height:300px;
 
 .accord h2{
   margin-top: 50px;
+  margin-bottom: 40px;
   text-align: center;
   color: #211545;
   font-size: 1.6rem;
@@ -333,8 +343,9 @@ height:300px;
 
 .accordion {
   font-family: times;
+  font-weight: bold;
   text-align: center;
-  margin: 3px;
+  margin-bottom: 3px;
   background-color: #d9d9d9;
   color: #161042;
   cursor: pointer;
@@ -412,12 +423,7 @@ height:300px;
   padding-right: 20px;
 }
 
-/* content 2 */
-.refstyle h2{
-  color:black;
-  position: absolute;
-  padding: 150px 100px 300px 500px;
-}
+/* content 2  */
 
 .text-c2 {
   text-align: left;
@@ -436,7 +442,7 @@ height:300px;
   padding: 18px;
   width: 100%;
   border: none;
-  text-align: left;
+  /* text-align: left; */
   outline: none;
   font-size: 15px;
   transition: 0.4s;
@@ -485,31 +491,26 @@ height:300px;
   padding-top: 0px;
 }
 
-/*content 4 */
-
-
-  .ban{
-    width:480px;
-    height:300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: right;
-    border-radius: 8px;
-margin-bottom: 10px;
-  }
-
-.main{
-  font-size: 30px;
-  font-family: times;
+/*content 4*/
+.ban{
+  width:480px;
+  height:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ float: right;
+ border-radius: 8px;
+ margin-bottom: 10px;
 }
-.text1{
+
+.text1 {
   text-align: left;
   font-family: times;
   color: #161042;
-  padding: 25px;
-  font-size: 15px;
+  padding: 30px;
+  font-size: 18px;
 }
+
 
 /* media */
 .video{
@@ -572,10 +573,7 @@ margin-bottom: 10px;
   .vivideo iframe{
     width:375px;
     height: 315px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display:flex;
+    margin: 0px;
   }
   .refstyle h2{
     display: none;
