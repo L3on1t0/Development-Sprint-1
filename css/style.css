@@ -280,7 +280,7 @@ height:  auto;
 div.footer{
   display: block;
   resize: both;
-  /* overflow: auto; */
+  overflow: auto;
   background-color: #211545;
 }
 div.footer div{
@@ -525,16 +525,7 @@ div.footer ul li{
   transition: 0.4s; */
 }
 /*content 4*/
-.ban{
-  width:100px;
-  height:300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- float: right;
- border-radius: 8px;
- margin-bottom: 10px;
-}
+
 
 .text1 {
   text-align: left;
@@ -835,4 +826,20 @@ label{
 
 .tab{
   margin-left: 40px;
+}
+
+img.ban{
+  width:100%;
+  max-width: 600px;
+  height:auto;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+ float: right; */
+ border-radius: 8px;
+ margin-bottom: 10px;
+}
+
+.photo-container{
+  text-align: center;
 }
