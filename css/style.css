@@ -197,6 +197,13 @@ h5{
   font-size: 1rem;
   text-align: center;
 }
+.h6{
+  font-family: times;
+  font-size: 20px;
+  color: white;
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
 /* Button on the cards */
 .button {
   display: inline-block;
@@ -256,7 +263,7 @@ height:  auto;
 }
 div.footer{
   display: block;
-  resize: both;
+  resize: none;
   overflow: auto;
   background-color: #211545;
 }
@@ -267,6 +274,7 @@ div.footer div{
 
 div.footer ul li{
   display: inline-block;
+  cursor: pointer;
 }
 @keyframes fade {
   from {opacity: .4}
