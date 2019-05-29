@@ -5,7 +5,9 @@
 }
 /* Body  */
 body{
-  background-color: #ececec;
+  font-size: 10px;
+  font-family: sans-serif;
+  background-color: #fcfcfc;
   margin: 0px 0px;
 }
 /* Navigation Bar */
