@@ -60,9 +60,9 @@ body{
   margin:5px;
 
 }
-.srs{
+/* .srs{
   height: 25px;
-}
+} */
 /* content */
 .content{
   text-align: justify;
@@ -522,8 +522,8 @@ div.footer ul li{
   border: none;
   outline: none;
   font-size: 25px;
-  transition: 0.4s; */
-}
+  transition: 0.4s;
+}*/
 /*content 4*/
 
 
