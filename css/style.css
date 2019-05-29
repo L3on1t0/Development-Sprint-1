@@ -323,6 +323,7 @@ img {
 .accordion {
   font-family: cursive;
   text-align: center;
+  margin: 5px;
   background-color: #d9d9d9;
   color: #161042;
   cursor: pointer;
