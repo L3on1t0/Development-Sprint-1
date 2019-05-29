@@ -199,7 +199,7 @@ h5{
 /* Button on the cards */
 .button {
   display: inline-block;
-  /* padding: 5px 15px; */
+  padding: 5px 15px;
   font-size: 1.5em;
   cursor: pointer;
   text-align: center;
@@ -209,7 +209,7 @@ h5{
   background-color: #0f1f66;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 7px #999;
 }
 .button a{
   color: white;
