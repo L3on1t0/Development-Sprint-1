@@ -546,7 +546,10 @@ img {
   }
   .vivideo iframe{
     width:375px;
-    height: 315px;w
+    height: 315px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display:flex;
   }
   .refstyle h2{
