@@ -247,7 +247,10 @@ h5{
 img {
   vertical-align: middle;
 }
-
+.mySlides img{
+width:100%;
+height:300px;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -255,6 +258,9 @@ img {
   position: relative;
 }
 
+.mySlides fade img{
+
+}
 
 .active {
   background-color: #717171;
