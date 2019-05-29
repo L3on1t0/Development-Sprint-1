@@ -477,7 +477,6 @@ div.footer div{
 }
 .panel p{
   padding-top: 100px;
-
 }
 .panel-image{
   float: left;
@@ -602,7 +601,7 @@ div.footer div{
     width:100%;
   }
   .panel-image{
-    width: 50%;
+    width: 100%;
     display: block;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -673,6 +672,9 @@ div.footer div{
     margin-top: 0px;
     width:100%;
     display: inline-block;
+  }
+  .panel p{
+    padding-top: 300px;
   }
 
   .describ h3{
