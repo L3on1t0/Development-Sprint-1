@@ -199,7 +199,7 @@ h5{
 /* Button on the cards */
 .button {
   display: inline-block;
-  /* padding: 5px 15px; */
+  padding: 5px 15px;
   font-size: 1.5em;
   cursor: pointer;
   text-align: center;
@@ -209,7 +209,7 @@ h5{
   background-color: #0f1f66;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 7px #999;
 }
 .button a{
   color: white;
@@ -223,7 +223,7 @@ h5{
   box-shadow: 0 5px #666;
   transform: translateY(3px);
 }
-/* ifrane */
+/* ifrare */
 .iframe{
   align-items: center;
 }
@@ -477,7 +477,6 @@ div.footer div{
 }
 .panel p{
   padding-top: 100px;
-
 }
 .panel-image{
   float: left;
@@ -598,8 +597,10 @@ div.footer div{
     width:100%;
   }
   .panel-image{
-    width: 50%;
+    width: 100%;
     display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .card-wrap{
     margin-top: 0px;
@@ -651,7 +652,7 @@ div.footer div{
     float: right;
     margin-top: 0px;
     margin-bottom: 0px;
-    width:50%;
+    width:100%;
     display: inline-block;
   }
 
@@ -667,6 +668,9 @@ div.footer div{
     margin-top: 0px;
     width:100%;
     display: inline-block;
+  }
+  .panel p{
+    padding-top: 300px;
   }
 
   .describ h3{
