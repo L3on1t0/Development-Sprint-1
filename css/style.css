@@ -590,6 +590,9 @@ img {
     margin-top: 500px;
     margin-left: 0px;
   }
+  .accordion{
+    margin: 0px;
+  }
   .cardo h3{
     padding: 0px;
     margin-top: 0px;
