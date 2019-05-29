@@ -159,6 +159,8 @@ h5{
   margin-left: 200px;
 }
 .card-wrapper {
+  display: block;
+  overflow: auto;
   padding-left: 300px;
   padding-right: 75px;
 }
@@ -276,6 +278,7 @@ height:  auto;
 }
 
 div.footer{
+  display: block;
   resize: both;
   overflow: auto;
   background-color: #211545;
